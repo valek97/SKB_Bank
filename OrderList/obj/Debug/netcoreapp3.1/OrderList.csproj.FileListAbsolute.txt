@@ -1,4 +1,3 @@
-E:\SKB_Bank\OrderList\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\SKB_Bank\OrderList\bin\Debug\netcoreapp3.1\appsettings.json
 E:\SKB_Bank\OrderList\bin\Debug\netcoreapp3.1\OrderList.exe
 E:\SKB_Bank\OrderList\bin\Debug\netcoreapp3.1\OrderList.deps.json
@@ -148,3 +147,5 @@ E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SidebarPartial.
 E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\SKB_Bank\OrderList\bin\Debug\netcoreapp3.1\appsettings.productions.json
+E:\SKB_Bank\OrderList\bin\Debug\netcoreapp3.1\appsettings.staging.json

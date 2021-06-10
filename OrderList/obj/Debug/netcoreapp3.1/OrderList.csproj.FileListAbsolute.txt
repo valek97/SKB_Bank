@@ -155,3 +155,7 @@ E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImpor
 E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
 E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\ServiceItems\Edit.cshtml.g.cs
+E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contacts.cshtml.g.cs
+E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\Services\Index.cshtml.g.cs
+E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\Services\Show.cshtml.g.cs
+E:\SKB_Bank\OrderList\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Sidebar\Default.cshtml.g.cs

@@ -20,6 +20,20 @@ using OrderList.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 4 "E:\SKB_Bank\OrderList\Views\_ViewImports.cshtml"
+using OrderList.Domain.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\SKB_Bank\OrderList\Views\_ViewImports.cshtml"
+using OrderList.Models.ViewComponents;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "E:\SKB_Bank\OrderList\Views\Shared\MetatagsPartial.cshtml"
 using OrderList.Service;
 
@@ -27,7 +41,7 @@ using OrderList.Service;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eda080e9fa0d178d103634afc3ac5922c3cc4bb2", @"/Views/Shared/MetatagsPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"875c4936155e4d51150bc0f35bdc88f99150357b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"11845f5e537a14fc79d1311a32e1d8e27326f476", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_MetatagsPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

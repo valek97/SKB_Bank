@@ -19,8 +19,29 @@ using OrderList.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\SKB_Bank\OrderList\Views\_ViewImports.cshtml"
+using OrderList.Service;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "E:\SKB_Bank\OrderList\Views\_ViewImports.cshtml"
+using OrderList.Domain.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\SKB_Bank\OrderList\Views\_ViewImports.cshtml"
+using OrderList.Models.ViewComponents;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"91d252172c1214de78d2d60bc0231cea2487c8fb", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"875c4936155e4d51150bc0f35bdc88f99150357b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"11845f5e537a14fc79d1311a32e1d8e27326f476", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -49,7 +70,7 @@ using OrderList.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE HTML>\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91d252172c1214de78d2d60bc0231cea2487c8fb3010", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91d252172c1214de78d2d60bc0231cea2487c8fb3494", async() => {
                 WriteLiteral("\r\n  ");
 #nullable restore
 #line 4 "E:\SKB_Bank\OrderList\Views\Shared\_Layout.cshtml"
@@ -79,7 +100,7 @@ Write(await Html.PartialAsync("CssPartial"));
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91d252172c1214de78d2d60bc0231cea2487c8fb4417", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91d252172c1214de78d2d60bc0231cea2487c8fb4901", async() => {
                 WriteLiteral("\r\n    <div id=\"page-wrapper\">\r\n        ");
 #nullable restore
 #line 9 "E:\SKB_Bank\OrderList\Views\Shared\_Layout.cshtml"

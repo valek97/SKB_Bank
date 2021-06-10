@@ -58,8 +58,16 @@ namespace OrderList
                 options.SlidingExpiration = true;
             });
 
+            //Настраиваем политику авторизации для Admin area
+            services.AddAuthorization(x =>
+            {
+                x.AddPolicy("AdminArea", policy => { policy.RequireRole("admin"); });
+            });
             //Поддержка контролллера MVC
-            services.AddControllersWithViews()
+            services.AddControllersWithViews(x =>
+            {
+                x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea"));
+            })
                 //Совместимость с кор 3.0
                 .SetCompatibilityVersion(CompatibilityVersion.Version_3_0).AddSessionStateTempDataProvider();
         }
@@ -88,6 +96,7 @@ namespace OrderList
             //Регистрация нужного маршрута(ендпоинт)
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute("admin", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }

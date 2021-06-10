@@ -12,6 +12,10 @@ namespace OrderList.Domain.Repositories.EntityFramework
     public class EFBuyersRepository : IBuyersRepository
     {
         private readonly AppDbContext context;
+        public EFBuyersRepository(AppDbContext context)
+        {
+            this.context = context;
+        }
 
         public void DeleteBuyer(int id)
         {

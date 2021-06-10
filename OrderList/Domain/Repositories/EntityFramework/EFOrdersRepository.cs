@@ -12,6 +12,10 @@ namespace OrderList.Domain.Repositories.EntityFramework
     public class EFOrdersRepository : IOrdersRepository
     {
         private readonly AppDbContext context;
+        public EFOrdersRepository(AppDbContext context)
+        {
+            this.context = context;
+        }
         public void DeleteOrder(int id)
         {
             context.Orders.Remove(new Order() { OrderId = id });
